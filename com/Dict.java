@@ -28,7 +28,6 @@ public class Dict {
 
     void print(){
         for(int i = 0; i < lists.length; i++){
-            System.out.println((char)(i + (int)'A'));
             lists[i].print();
         }
     }
